@@ -1,22 +1,17 @@
 {
   "name": "myapp",
-  "version": "1.0.0",
-  "description": "First app using express",
-  "main": "app.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ah27182/myapp.git"
-  },
-  "author": "Ahmed Husain",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ah27182/myapp/issues"
-  },
-  "homepage": "https://github.com/ah27182/myapp#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
   }
 }
